@@ -6,3 +6,14 @@ const myNumbers = [22, 42, 62, 82, 72];
 
 console.log(myNumbers.at(2)); // 62
 console.log(myNumbers.at(-2)); // 82
+
+// concat() : Merge multiple arrays | Does't Change existing array | Return New array
+
+const class1 = ["Krunal", "Hitesh", "Harry"];
+const class2 = ["HTML", "CSS", "JavaScript"];
+
+console.log(class1); // [ 'Krunal', 'Hitesh', 'Harry' ]
+console.log(class2); // [ 'HTML', 'CSS', 'JavaScript' ]
+
+const classMerge = class1.concat(class2);
+console.log(classMerge); // [ 'Krunal', 'Hitesh', 'Harry', 'HTML', 'CSS', 'JavaScript' ]
