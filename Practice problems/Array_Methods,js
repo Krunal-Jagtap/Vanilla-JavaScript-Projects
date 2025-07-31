@@ -32,6 +32,8 @@ console.log(result); // [ 'MotherBoard', 'Headphones' ]
 const favWorkout = ["Chest", "Triceps", "Shoulders"];
 
 console.log(favWorkout); // [ 'Chest', 'Triceps', 'Shoulders' ]
+console.log(favWorkout.length); // 3
 
 favWorkout.push("Back");
 console.log(favWorkout); // [ 'Chest', 'Triceps', 'Shoulders', 'Back' ]
+console.log(favWorkout.length); // 4
