@@ -43,3 +43,9 @@ let popElement = favWorkout.pop();
 
 console.log(favWorkout); // [ 'Chest', 'Triceps', 'Shoulders' ]
 console.log(popElement); // Back
+
+// unshift() : Add element at Start | Return New Length
+
+favWorkout.unshift("Cardio");
+
+console.log(favWorkout); // [ 'Cardio', 'Chest', 'Triceps', 'Shoulders' ]
