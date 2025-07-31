@@ -49,3 +49,10 @@ console.log(popElement); // Back
 favWorkout.unshift("Cardio");
 
 console.log(favWorkout); // [ 'Cardio', 'Chest', 'Triceps', 'Shoulders' ]
+
+// shift() : Remove element from Start | Return element and length
+
+let shiftElement = favWorkout.shift();
+
+console.log(favWorkout); // [ 'Chest', 'Triceps', 'Shoulders' ]
+console.log(shiftElement); // Cardio
