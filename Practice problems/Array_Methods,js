@@ -17,3 +17,12 @@ console.log(class2); // [ 'HTML', 'CSS', 'JavaScript' ]
 
 const classMerge = class1.concat(class2);
 console.log(classMerge); // [ 'Krunal', 'Hitesh', 'Harry', 'HTML', 'CSS', 'JavaScript' ]
+
+// filter() : creates shallow copy of given array | Arrow Function
+const word = ["Display", "MotherBoard", "Keyboard", "Mouse", "Headphones"];
+
+// Find words greater that 8 characters
+
+const result = word.filter((word) => word.length > 8);
+
+console.log(result); // [ 'MotherBoard', 'Headphones' ]
