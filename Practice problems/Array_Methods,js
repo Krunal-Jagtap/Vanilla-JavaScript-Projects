@@ -26,3 +26,12 @@ const word = ["Display", "MotherBoard", "Keyboard", "Mouse", "Headphones"];
 const result = word.filter((word) => word.length > 8);
 
 console.log(result); // [ 'MotherBoard', 'Headphones' ]
+
+// push() : Add element at END | Return New Length
+
+const favWorkout = ["Chest", "Triceps", "Shoulders"];
+
+console.log(favWorkout); // [ 'Chest', 'Triceps', 'Shoulders' ]
+
+favWorkout.push("Back");
+console.log(favWorkout); // [ 'Chest', 'Triceps', 'Shoulders', 'Back' ]
