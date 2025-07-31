@@ -1,0 +1,8 @@
+// ========== Array Methods ==========
+
+// at() = Take Number and return index item (+) (-)
+
+const myNumbers = [22, 42, 62, 82, 72];
+
+console.log(myNumbers.at(2)); // 62
+console.log(myNumbers.at(-2)); // 82
