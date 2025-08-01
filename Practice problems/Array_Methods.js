@@ -62,6 +62,23 @@ const myNums = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 
 console.log(myNums.indexOf(8)); // 7 | Index start from 0
 
+// indexOf and splice challenge
+// We have to remove Banana from fruit array
+
+const fruit = ["Apple", "Mango", "Banana", "Kiwi", "Peru"];
+
+console.log(fruit.indexOf("Banana")); // Index 2  | Index start from 0
+
+// If Banana not found return ( -1 )
+
+const index = fruit.indexOf("Banana");
+
+if (index > -1) {
+  // splice 1st value ( Start from index number ) 2nd value ( How many items want to remove )
+  let deletedItem = fruit.splice(index, 1);
+  console.log(deletedItem); // [ 'Banana' ]
+}
+
 // includes() : if element match return True | Not match return false
 
 console.log(myNums.includes(10)); // true
