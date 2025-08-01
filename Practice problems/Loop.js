@@ -20,3 +20,14 @@ while (i <= teas.length) {
   console.log(`Index ${i} = ${teas[i]}`);
   i++;
 }
+
+// Do-While Loop :
+// do {
+//     Code to be executed at least once
+// } while (condition);
+
+let el = 0;
+do {
+  console.log(`Index ${el} = ${teas[el]}`);
+  el++;
+} while (el <= teas.length);
