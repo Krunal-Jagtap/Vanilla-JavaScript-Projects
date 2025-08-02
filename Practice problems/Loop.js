@@ -31,3 +31,21 @@ do {
   console.log(`Index ${el} = ${teas[el]}`);
   el++;
 } while (el <= teas.length);
+
+// For in Loop :
+// Used in Objects
+
+const profile = {
+  name: "Krunal",
+  role: "Front-End",
+  id: 1234,
+};
+
+console.log(profile); // { name: 'Krunal', role: 'Front-End', id: 1234 }
+
+for (const key in profile) {
+  console.log(`Profile title = ${key} and description = ${profile[key]} `);
+  // Profile title = name and description = Krunal
+  // Profile title = role and description = Front-End
+  // Profile title = id and description = 1234
+}
