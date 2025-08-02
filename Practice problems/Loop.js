@@ -49,3 +49,15 @@ for (const key in profile) {
   // Profile title = role and description = Front-End
   // Profile title = id and description = 1234
 }
+
+// For of Loop :
+// Used in String and Array
+
+console.log(teas);
+
+for (const element of teas) {
+  console.log(element);
+  // Milk Tea
+  // Black Tea
+  // Special Tea
+}
