@@ -61,3 +61,11 @@ for (const element of teas) {
   // Black Tea
   // Special Tea
 }
+
+// forEach :
+
+const phoneBrands = ["Apple", "Samsung", "Motorola", "Mi"];
+
+phoneBrands.forEach((element, index, array) => {
+  console.log(element, index, array);
+});
