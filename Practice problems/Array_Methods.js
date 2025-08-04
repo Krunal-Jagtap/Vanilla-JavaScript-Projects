@@ -83,3 +83,10 @@ if (index > -1) {
 
 console.log(myNums.includes(10)); // true
 console.log(myNums.includes(20)); // false
+
+// toString and join
+
+const num = [1, 2, 3, 4, 5];
+console.log(num); // [1, 2, 3, 4, 5];
+console.log(num.toString()); // 1, 2, 3, 4, 5;
+console.log(num.join(" and ")); // 1 and 2 and 3 and 4 and 5
