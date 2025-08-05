@@ -76,3 +76,19 @@ console.log(a > 10 || b < 10); // true
 // logical NOT - ( ! )
 const isRaining = false;
 console.log(!isRaining); // true
+
+// ========== Ternary operators ==========
+// ( Check Condition ) ? Result True : Result False
+
+2 > 3 ? console.log("True") : console.log("False"); // False
+
+let gamePoint = 91;
+
+let achievement =
+  gamePoint > 90
+    ? "Gold Medal 🥇"
+    : gamePoint > 60
+    ? "Sliver Medal 🥈"
+    : "Browns Medal 🥉";
+
+console.log(achievement); // 'Gold Medal 🥇'
