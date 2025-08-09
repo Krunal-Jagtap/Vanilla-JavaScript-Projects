@@ -15,6 +15,14 @@ function addition(a, b) {
 
 console.log(addition(1, 1)); // 2
 
+// Function with Default parameters
+
+function add(a = 5, b = 10) {
+  console.log(a + b);
+}
+
+add(); // Default parameters 15
+
 // Anonymous Function :
 // Function without name
 
