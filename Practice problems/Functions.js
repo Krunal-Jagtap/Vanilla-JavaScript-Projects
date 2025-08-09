@@ -30,3 +30,10 @@ const multiplication = (num1, num2) => {
 };
 
 console.log(multiplication(2, 8)); // 16
+
+// Function Expression - Function stored in variable
+const x2 = function (value_1, value_2) {
+  return value_1 ** value_2;
+};
+
+console.log(x2(2, 2));
