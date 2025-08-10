@@ -8,4 +8,5 @@ function f1() {
   };
 }
 
+// return function doesn't have function name so we use parent name and 2 time parentheses
 f1()(); // Krunal

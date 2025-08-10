@@ -54,5 +54,6 @@ function f1() {
   };
 }
 
+// return function doesn't have function name so we use parent name and 2 time parentheses
 f1(); // Run f1
 f1()(); // Run f1 and under f1 function // Higher Order Function
