@@ -45,3 +45,14 @@ const x2 = function (value_1, value_2) {
 };
 
 console.log(x2(2, 2));
+
+// Higher Order Functions - returns function OR accepts function in parameter
+
+function f1() {
+  return function () {
+    console.log(`Higher Order Function`);
+  };
+}
+
+f1(); // Run f1
+f1()(); // Run f1 and under f1 function // Higher Order Function
