@@ -135,3 +135,15 @@ let [myName, title] = profile;
 
 console.log(myName); // Krunal
 console.log(title); // Front-End-Developer
+
+// Merge 2 Arrays using Spread
+
+let arr1 = [10, 20, 30];
+let arr2 = [40, 50, 60];
+
+let spread_it = [...arr1, ...arr2];
+console.log(spread_it); // [ 10, 20, 30, 40, 50, 60 ]
+
+// Add my name using Spread
+spread_it = ["Krunal", ...arr1, ...arr2];
+console.log(spread_it); // [ 'Krunal', 10, 20, 30, 40, 50, 60 ]
