@@ -102,3 +102,15 @@ let lessThan5 = numbers.find(function (value) {
 });
 
 console.log(lessThan5); // 2
+
+// Some -
+// Return new array
+// Return True - False
+
+let score = [23, 46, 37];
+
+let ans = score.some(function (value) {
+  return value < 50;
+});
+
+console.log(ans); // True
