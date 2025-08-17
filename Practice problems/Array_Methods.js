@@ -114,3 +114,15 @@ let ans = score.some(function (value) {
 });
 
 console.log(ans); // True
+
+// Every -
+// Return new array
+// Check all values and return True - False
+
+let nums = [2, 4, 6, 8, 10];
+
+let output = nums.every(function (value) {
+  return value % 2 == 0;
+});
+
+console.log(output); // True
