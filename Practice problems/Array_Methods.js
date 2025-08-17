@@ -126,3 +126,12 @@ let output = nums.every(function (value) {
 });
 
 console.log(output); // True
+
+// Destructure Array name - title
+
+let profile = ["Krunal", "Front-End-Developer"];
+
+let [myName, title] = profile;
+
+console.log(myName); // Krunal
+console.log(title); // Front-End-Developer
