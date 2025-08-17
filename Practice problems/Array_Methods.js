@@ -90,3 +90,15 @@ const num = [1, 2, 3, 4, 5];
 console.log(num); // [1, 2, 3, 4, 5];
 console.log(num.toString()); // 1, 2, 3, 4, 5;
 console.log(num.join(" and ")); // 1 and 2 and 3 and 4 and 5
+
+// Find -
+// Return new array
+// Return 1st matched value
+
+let numbers = [2, 3, 5, 6, 8, 10];
+
+let lessThan5 = numbers.find(function (value) {
+  return value < 5;
+});
+
+console.log(lessThan5); // 2
