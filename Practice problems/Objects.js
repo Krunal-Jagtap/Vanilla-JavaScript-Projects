@@ -51,3 +51,14 @@ const tvRemote = {
 console.log(tvRemote.power.turnOn); // Turning ON
 
 console.log(tvRemote.volume.decrees); // Press ➖
+
+// Destructuring Objects
+
+let { increase, decrees } = tvRemote.volume;
+// Now we can use increase and decrees as a variables
+
+// Now We don't have to write
+// tvRemote.volume.increase
+// tvRemote.volume.decrease  every time, directly used Destructure Variables
+console.log(increase);
+console.log(decrees);
