@@ -102,3 +102,8 @@ console.log(spreadObj);
 // for Deep copy
 let deepObj = JSON.parse(JSON.stringify(tvRemote));
 console.log(deepObj);
+
+// Optional Chaining
+console.log(tvRemote.volume.increase);
+console.log(tvRemote.sound.increase); // throw error
+console.log(tvRemote?.sound?.increase);
