@@ -105,5 +105,20 @@ console.log(deepObj);
 
 // Optional Chaining
 console.log(tvRemote.volume.increase);
-console.log(tvRemote.sound.increase); // throw error
+// console.log(tvRemote.sound.increase); // throw error
 console.log(tvRemote?.sound?.increase);
+
+// Computed Properties
+
+let shortCutBtn = "YouTube";
+
+const keyboard = {
+  Brand: "TVS Gold",
+  keyTypes: {
+    numbers: "0 to 9",
+    characters: "A to Z",
+  },
+  [shortCutBtn]: "Open YouTube",
+};
+
+console.log(keyboard);
