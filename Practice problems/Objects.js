@@ -72,3 +72,19 @@ for (const key in userProfile) {
   // Access Values -
   console.log(userProfile[key]); // Krunal 11 true JavaScript [ 'Html', 'CSS', 'Git', 'GitHub' ]
 }
+
+// Object.keys()
+// Return Array of keys
+
+let arrOfKeys = Object.keys(userProfile);
+console.log(arrOfKeys);
+
+/* 
+[
+  'userName',
+  'userID',
+  'isVerified',
+  'currentlyLearning',
+  'userSkills'
+]
+*/
