@@ -88,3 +88,10 @@ console.log(arrOfKeys);
   'userSkills'
 ]
 */
+
+// Object Spread  -
+
+const spreadObj = { ...userProfile };
+
+console.log(userProfile);
+console.log(spreadObj);
