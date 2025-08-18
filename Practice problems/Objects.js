@@ -62,3 +62,13 @@ let { increase, decrees } = tvRemote.volume;
 // tvRemote.volume.decrease  every time, directly used Destructure Variables
 console.log(increase);
 console.log(decrees);
+
+// For In Loop for Object
+
+for (const key in userProfile) {
+  // Access Keys -
+  console.log(key); // userName userID isVerified currentlyLearning userSkills
+
+  // Access Values -
+  console.log(userProfile[key]); // Krunal 11 true JavaScript [ 'Html', 'CSS', 'Git', 'GitHub' ]
+}
