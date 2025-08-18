@@ -95,3 +95,10 @@ const spreadObj = { ...userProfile };
 
 console.log(userProfile);
 console.log(spreadObj);
+
+// In nested object don't used spread to copy object WHY ?
+// because it's copy pass by reference shallow copy
+
+// for Deep copy
+let deepObj = JSON.parse(JSON.stringify(tvRemote));
+console.log(deepObj);
