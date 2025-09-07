@@ -29,3 +29,10 @@ console.log(typeof userPhoneNumber); // object
 const userIndex = 9845198n;
 console.log(userIndex); // 9845198n
 console.log(typeof userIndex); // bigint
+
+// Symbol - Unique immutable value
+let userId_1 = Symbol("IN");
+let userId_2 = Symbol("IN");
+
+console.log(userId_1 === userId_2); // False Why ?
+// userID_1 and userId_2 have same value IN but Symbol makes it Unique and Immutable Value.
