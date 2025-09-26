@@ -36,3 +36,11 @@ for (let index = 1; index <= 100; index++) {
     break;
   }
 }
+
+// Log numbers divisible by 3 between ( 1 - 20 )
+for (let index = 1; index <= 20; index++) {
+  if (index % 3 == 0) {
+    continue; // number 3 is not logged
+  }
+  console.log(index);
+}
