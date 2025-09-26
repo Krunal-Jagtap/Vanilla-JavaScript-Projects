@@ -28,3 +28,11 @@ if (userNumber % 2 == 0) {
 } else {
   console.log(`${userNumber} is Odd`);
 }
+
+// Log only numbers divisible by 7
+for (let index = 1; index <= 100; index++) {
+  console.log(index); // 1 2 3 4 5 6 7
+  if (index % 7 == 0) {
+    break;
+  }
+}
