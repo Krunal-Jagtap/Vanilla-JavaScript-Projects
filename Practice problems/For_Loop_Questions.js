@@ -44,3 +44,16 @@ for (let index = 1; index <= 20; index++) {
   }
   console.log(index);
 }
+
+// Log even numbers and stop after 5 even numbers
+let count = 0;
+for (let index = 1; index <= 100; index++) {
+  if (index % 2 == 1) {
+    count++;
+    console.log(index); // 1 3 5 7 9
+  }
+
+  if (count === 5) {
+    break;
+  }
+}
