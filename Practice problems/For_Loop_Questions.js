@@ -18,3 +18,13 @@ for (let index = 1; index <= 100; index++) {
     console.log(index); // 15 30 45 60 75 90
   }
 }
+
+// Check any number is Even - Odd
+// Run this question is browser console
+let userNumber = Number(prompt("Check Number is Even - Odd"));
+
+if (userNumber % 2 == 0) {
+  console.log(`${userNumber} is Even`);
+} else {
+  console.log(`${userNumber} is Odd`);
+}
