@@ -10,3 +10,11 @@ for (let index = 1; index <= 100; index++) {
   sumOfNumbers += index;
 }
 console.log(sumOfNumbers); // 5050
+
+// Log Number divisible by 3 and 5, between ( 1 - 100 )
+
+for (let index = 1; index <= 100; index++) {
+  if (index % 3 == 0 && index % 5 == 0) {
+    console.log(index); // 15 30 45 60 75 90
+  }
+}
