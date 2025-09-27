@@ -52,6 +52,13 @@ console.log(tvRemote.power.turnOn); // Turning ON
 
 console.log(tvRemote.volume.decrees); // Press ➖
 
+// Assign
+let mergeObj_1 = [userProfile, tvRemote];
+console.log(mergeObj_1);
+
+let mergeObj_2 = Object.assign({}, userProfile, tvRemote);
+console.log(mergeObj_2);
+
 // Destructuring Objects
 
 let { increase, decrees } = tvRemote.volume;
