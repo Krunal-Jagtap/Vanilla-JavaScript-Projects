@@ -74,3 +74,20 @@ function hello() {
 const hi = function () {
   console.log(`hi there`);
 };
+
+// Function REST Operator
+// Normal Function
+function shoppingCart(item) {
+  return item;
+}
+
+console.log(shoppingCart("Phone", "Screen Protector", "Phone Case")); // Here we got only 1st item phone.
+
+// REST Operator
+
+function shoppingBag(...product) {
+  return product;
+}
+
+console.log(shoppingBag("Phone", "Screen Protector", "Phone Case")); // Here we got all products in Array.
+// [ 'Phone', 'Screen Protector', 'Phone Case' ]
