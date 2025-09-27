@@ -37,3 +37,8 @@ console.log(Math.sqrt(25)); // 5
 // random ( here number 10 not include )
 console.log(Math.random());
 console.log(Math.round(Math.random() * 10));
+
+// random number between ( 10 - 20 )
+const min = 10;
+const max = 20;
+console.log(Math.floor(Math.random() * (max - min + 1) + min));
