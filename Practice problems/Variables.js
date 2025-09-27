@@ -9,3 +9,5 @@ console.log(_sendMessage);
 
 const $required = "Consistency";
 console.log($required);
+
+console.table([userName, _sendMessage, $required]);
