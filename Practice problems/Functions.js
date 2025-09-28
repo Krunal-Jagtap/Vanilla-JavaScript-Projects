@@ -37,6 +37,11 @@ const multiplication = (num1, num2) => {
   return num1 * num2;
 };
 
+// Explicit return = we have to use return keyword | use brackets {}
+// Implicit return = we don't have to use return keyword | no brackets use prentices (v1,v2) used in react.
+const divide = (v1, v2) => v1 % v2;
+console.log(divide(2, 4));
+
 console.log(multiplication(2, 8)); // 16
 
 // Function Expression - Function stored in variable
