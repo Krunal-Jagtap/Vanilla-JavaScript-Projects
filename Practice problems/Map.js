@@ -21,3 +21,14 @@ let moreThan50 = randomNumbers.map(function (values) {
 console.log(moreThan50); // [ 65, undefined, 93, 78, undefined ]
 
 // here randomNumbers have 5 values thats why moreThan50 give 5 values including undefined
+
+// Chaining
+
+let nums = [1, 2, 3, 4, 5];
+
+let newNums = nums
+  .map((val) => val * 10) // 10, 20, 30, 40, 50 this val pass in new map val
+  .map((val) => val + 5) // 15, 25, 35, 45, 55 now again this val pass in new filter val
+  .filter((val) => val >= 33); // 35, 45, 55
+
+console.log(newNums);
