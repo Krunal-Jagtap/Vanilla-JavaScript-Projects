@@ -41,3 +41,22 @@ console.log(list.innerText);
 
 // TextContent ==> return hidden elements text
 console.log(list.textContent);
+
+// += Concat
+let h2 = document.querySelector("h2");
+h2.innerText += " DOM Manipulation";
+
+// Access .box - Add Text
+let allBox = document.querySelectorAll(".box");
+
+// Using Array Indexing
+// allBox[0].innerText = "BOX 1";
+// allBox[1].innerText = "BOX 2";
+// allBox[2].innerText = "BOX 3";
+
+// Using Loop
+let index = 1;
+for (const box of allBox) {
+  console.log((box.innerText = `BOX ${index}`));
+  index++;
+}

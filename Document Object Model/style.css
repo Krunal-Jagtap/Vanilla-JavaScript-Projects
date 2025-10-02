@@ -5,7 +5,8 @@
   font-family: monospace;
 }
 
-p {
+p,
+h2 {
   background-color: lightslategray;
   padding: 10px;
   margin: 10px;
@@ -22,7 +23,8 @@ button {
   cursor: pointer;
 }
 
-ol {
+ol,
+.box {
   background-color: lightcoral;
   list-style: none;
   padding: 10px;
