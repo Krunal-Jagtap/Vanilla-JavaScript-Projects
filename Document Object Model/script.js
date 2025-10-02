@@ -60,3 +60,12 @@ for (const box of allBox) {
   console.log((box.innerText = `BOX ${index}`));
   index++;
 }
+
+// Attributes
+let changeAttribute = document.querySelector("h3");
+
+// getAttribute
+console.log(changeAttribute.getAttribute("class"));
+
+// setAttribute
+console.log(changeAttribute.setAttribute("class", "CHANGED"));
