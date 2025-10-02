@@ -26,3 +26,18 @@ console.log(idHeading);
 // Class ==> ( .sub-heading )
 let classHeading = document.querySelector(".sub-heading");
 console.log(classHeading);
+
+// Access List
+let list = document.querySelector("ol");
+
+// TagName ==> return tag element
+console.log(list.tagName);
+
+// InnerHTML ==> return text + html
+console.log(list.innerHTML);
+
+// InnerText ==> return text and child elements
+console.log(list.innerText);
+
+// TextContent ==> return hidden elements text
+console.log(list.textContent);
