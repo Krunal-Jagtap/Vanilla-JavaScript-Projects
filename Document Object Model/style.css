@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: monospace;
+}
+
+p {
+  background-color: lightslategray;
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+  font-size: 2em;
+  font-weight: 500;
+}
+
+button {
+  padding: 10px;
+  margin: 10px;
+  font-size: 2em;
+  font-weight: 500;
+  cursor: pointer;
+}
