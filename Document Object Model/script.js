@@ -96,3 +96,18 @@ section.after(newBtn);
 
 // Add Class to newBtn
 newBtn.classList.add("dynamicCSS");
+
+// Event Listener
+
+// Access newBtn ( Here newBtn already accessible )
+
+// Add Click Event
+
+const clickEvent = () => {
+  newBtn.innerText = "Submit";
+};
+
+newBtn.addEventListener("click", clickEvent);
+
+// Remove Click Event
+// newBtn.removeEventListener("click", clickEvent);

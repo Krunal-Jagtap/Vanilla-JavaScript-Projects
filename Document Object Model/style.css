@@ -3,6 +3,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: monospace;
+  text-align: center;
 }
 
 p,
@@ -21,6 +22,7 @@ button {
   font-size: 2em;
   font-weight: 500;
   cursor: pointer;
+  width: 30%;
 }
 
 ol,
