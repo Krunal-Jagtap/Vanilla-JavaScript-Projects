@@ -32,3 +32,24 @@ ol,
   font-size: 2em;
   font-weight: 500;
 }
+
+section {
+  background-color: lightblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+section h4 {
+  font-size: 2em;
+  font-weight: 500;
+  padding: 10px;
+  margin: 10px;
+}
+
+.dynamicCSS {
+  background-color: lightgreen;
+  text-transform: uppercase;
+  font-family: cursive;
+}

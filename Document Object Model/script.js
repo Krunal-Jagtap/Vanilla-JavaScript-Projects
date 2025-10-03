@@ -69,3 +69,30 @@ console.log(changeAttribute.getAttribute("class"));
 
 // setAttribute
 console.log(changeAttribute.setAttribute("class", "CHANGED"));
+
+// Create and Insert Element
+// Create Element
+let newBtn = document.createElement("button");
+newBtn.innerText = "Dynamic Button";
+
+// Access node Where to insert new element
+let section = document.querySelector("section");
+
+// insert element
+// append ==> Added in end of node ( section - Inside)
+section.append(newBtn);
+
+// prepend ==> Added in start of node ( section - Inside)
+section.prepend(newBtn);
+
+// before ==> Added in before node ( section - Outside)
+section.before(newBtn);
+
+// after ==> Added in after node ( section - Outside)
+section.after(newBtn);
+
+// remove ==> remove the node ( Section )
+// section.remove();
+
+// Add Class to newBtn
+newBtn.classList.add("dynamicCSS");
