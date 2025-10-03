@@ -55,3 +55,14 @@ section h4 {
   text-transform: uppercase;
   font-family: cursive;
 }
+
+/* Light - Dark Mode  */
+.dark {
+  background-color: black;
+  color: white;
+}
+
+.light {
+  background-color: white;
+  color: black;
+}

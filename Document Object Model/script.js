@@ -111,3 +111,23 @@ newBtn.addEventListener("click", clickEvent);
 
 // Remove Click Event
 // newBtn.removeEventListener("click", clickEvent);
+
+// Light - Dark Mode
+let modeBtn = document.querySelector("#mode");
+let body = document.querySelector("body");
+
+let currentMode = "light";
+
+modeBtn.addEventListener("click", () => {
+  if (currentMode === "light") {
+    modeBtn.innerText = "Light Mode";
+    currentMode = "dark";
+    body.classList.add("dark");
+    body.classList.remove("light");
+  } else {
+    modeBtn.innerText = "Dark Mode";
+    currentMode = "light";
+    body.classList.add("light");
+    body.classList.remove("dark");
+  }
+});
