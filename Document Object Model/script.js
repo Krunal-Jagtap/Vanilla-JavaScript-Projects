@@ -8,6 +8,7 @@ console.log(heading);
 console.dir(heading);
 
 // Access Element by Class
+// Return HTML Collection like a Array
 let subHeading = document.getElementsByClassName("sub-heading");
 console.log(subHeading);
 
@@ -19,7 +20,7 @@ console.log(btn);
 let firstPara = document.querySelector("p");
 console.log(firstPara);
 
-// Access Element by querySelectorAll => return all matching element
+// Access Element by querySelectorAll => return all matching element - Node List - Structure like a Array
 let allPara = document.querySelectorAll("p");
 console.log(allPara);
 
@@ -75,6 +76,9 @@ console.log(changeAttribute.getAttribute("class"));
 // setAttribute
 console.log(changeAttribute.setAttribute("class", "CHANGED"));
 
+// removeAttribute
+console.log(changeAttribute.removeAttribute("class"));
+
 // Create and Insert Element
 // Create Element
 let newBtn = document.createElement("button");
@@ -101,6 +105,12 @@ section.after(newBtn);
 
 // Add Class to newBtn
 newBtn.classList.add("dynamicCSS");
+
+// remove Class to newBtn
+// newBtn.classList.remove("dynamicCSS");
+
+// toggle - Switch between
+// newBtn.classList.toggle("dynamicCSS");
 
 // Event Listener
 
