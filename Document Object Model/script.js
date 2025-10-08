@@ -1,6 +1,11 @@
 // Access Element by ID
 let heading = document.getElementById("heading");
+
+// Default View :
 console.log(heading);
+
+// Object View :
+console.dir(heading);
 
 // Access Element by Class
 let subHeading = document.getElementsByClassName("sub-heading");
