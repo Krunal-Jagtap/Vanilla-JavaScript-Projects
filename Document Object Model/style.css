@@ -26,7 +26,8 @@ button {
 }
 
 ol,
-.box {
+.box,
+.phone-list {
   background-color: lightcoral;
   list-style: none;
   padding: 10px;

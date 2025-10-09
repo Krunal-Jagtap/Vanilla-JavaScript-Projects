@@ -48,6 +48,9 @@ console.log(list.innerText);
 // TextContent ==> return hidden elements text
 console.log(list.textContent);
 
+// Add proper titles to elements
+list.setAttribute("title", "Fruits List");
+
 // += Concat
 let h2 = document.querySelector("h2");
 h2.innerText += " DOM Manipulation";
@@ -146,3 +149,28 @@ modeBtn.addEventListener("click", () => {
     body.classList.remove("dark");
   }
 });
+
+// Select all li using loop
+
+let phoneList = document.querySelectorAll(".phone-list");
+
+phoneList.forEach((value) => {
+  console.log(value.textContent);
+});
+
+// Access Ul and set class
+let ul = document.querySelector("ul");
+ul.setAttribute("class", "phone-list-container");
+
+// Access Ul with call ( phoneContainer )
+let phoneContainer = document.querySelector(".phone-list-container");
+
+// create new li and append in phoneList
+let newPhoneItem = document.createElement("li");
+newPhoneItem.textContent = "ROG Gaming";
+
+phoneContainer.append(newPhoneItem);
+
+// this li not style because new li doesn't have a class
+// adding class to new li
+newPhoneItem.setAttribute("class", "phone-list");
