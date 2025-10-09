@@ -134,21 +134,28 @@ newBtn.addEventListener("click", clickEvent);
 let modeBtn = document.querySelector("#mode");
 let body = document.querySelector("body");
 
-let currentMode = "light";
+// toggle class add - remove
+modeBtn.textContent = "Change Mode";
 
 modeBtn.addEventListener("click", () => {
-  if (currentMode === "light") {
-    modeBtn.innerText = "Light Mode";
-    currentMode = "dark";
-    body.classList.add("dark");
-    body.classList.remove("light");
-  } else {
-    modeBtn.innerText = "Dark Mode";
-    currentMode = "light";
-    body.classList.add("light");
-    body.classList.remove("dark");
-  }
+  body.classList.toggle("dark");
 });
+
+// let currentMode = "light";
+
+// modeBtn.addEventListener("click", () => {
+//   if (currentMode === "light") {
+//     modeBtn.innerText = "Light Mode";
+//     currentMode = "dark";
+//     body.classList.add("dark");
+//     body.classList.remove("light");
+//   } else {
+//     modeBtn.innerText = "Dark Mode";
+//     currentMode = "light";
+//     body.classList.add("light");
+//     body.classList.remove("dark");
+//   }
+// });
 
 // Select all li using loop
 
@@ -174,3 +181,9 @@ phoneContainer.append(newPhoneItem);
 // this li not style because new li doesn't have a class
 // adding class to new li
 newPhoneItem.setAttribute("class", "phone-list");
+
+// Input Event
+let inputData = document.querySelector("input");
+inputData.addEventListener("input", (details) => {
+  console.log(details.data);
+});
